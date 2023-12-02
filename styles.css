@@ -1,0 +1,49 @@
+/* to match the given format*/
+
+.body {
+  position: relative;
+}
+
+.alert_congrats {
+  position: absolute;
+  right: 20%;
+  top: 20%;
+  padding: 2rem;
+  background-color: rgb(122, 212, 122);
+  color: darkgreen;
+  border-radius: 15%;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.form {
+  position: absolute;
+  left: auto;
+}
+
+/* to hide the congrats alert */
+
+.hide_alert_congrats {
+  display: none;
+}
+
+/* changes made to show the congarts in case all answers are true */
+
+.alert-title {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 2%;
+  padding-bottom: 5%;
+}
+
+.wrong-answer {
+  color: red;
+}
+
+.correct-answer {
+  color: green;
+}
+
+@media screen {
+    
+}
